@@ -1,0 +1,1497 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 8134 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/NewWork/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54156
+Successfully changed project path to: D:/NewWork/My project
+D:/NewWork/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/NewWork/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000968 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (140ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.530500 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.288800 ms  DeleteObjects: 0.063200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Mixamo
+  artifactKey: Guid(e9cbdf9cfc8e4df48b9935d4d8e7abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo using Guid(e9cbdf9cfc8e4df48b9935d4d8e7abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8799054be204fe2d3aa3c97e742fdbf8') in 0.023130 seconds 
+  Import took 0.025740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.988835 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836432fe2a45a711a1078f6f21e2a14d') in 1.114592 seconds 
+  Import took 1.129647 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 2.477300 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.291300 ms  DeleteObjects: 0.016100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.734437 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd60d8a6095102dba7e7c4c50030c75') in 0.113561 seconds 
+  Import took 0.133732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 730.654125 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9265365b022be6ac8a0e29a0d69eed70') in 0.054859 seconds 
+  Import took 0.073737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ca8ca68fd7b525c2c236ad03c202a5') in 0.049910 seconds 
+  Import took 0.052372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.481953 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5a3449d35fe99bd579eb201196ef8d') in 0.050847 seconds 
+  Import took 0.053847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96080e5b0d7c575783ad69fc37b589ea') in 0.049466 seconds 
+  Import took 0.051882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.510801 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2832fd341b2c86842c9aeda283f3a24f') in 0.054282 seconds 
+  Import took 0.056936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612862 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1852da4d5c26307cae723283e7a8da6d') in 0.051809 seconds 
+  Import took 0.054703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.185450 seconds.
+  path: Assets/Mixamo/Head Spinning.anim
+  artifactKey: Guid(b863a0f6ae6a9834aac708b23e70e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Head Spinning.anim using Guid(b863a0f6ae6a9834aac708b23e70e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6219f303f9d6cc0a9b2a40382032c9') in 0.007237 seconds 
+  Import took 0.009744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.215425 seconds.
+  path: Assets/Mixamo/Headspin End.anim
+  artifactKey: Guid(257e1f0f48a78f641acf62a2fac3f652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Headspin End.anim using Guid(257e1f0f48a78f641acf62a2fac3f652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b61d7798ed027aceef87ad54aff5b03') in 0.015982 seconds 
+  Import took 0.018145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.894363 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.000760 seconds 
+  Import took 0.002830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.000816 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(d381604db1b20744bbc4928dc6ec3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(d381604db1b20744bbc4928dc6ec3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac52c8fe89a389d2c2fc57866ea3b2c4') in 0.000780 seconds 
+  Import took 0.018318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.384310 seconds.
+  path: Assets/Animation/New Animation.anim
+  artifactKey: Guid(33f83aa4117fc814cb2cd1c015534392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animation.anim using Guid(33f83aa4117fc814cb2cd1c015534392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e03649e735951abeace69e622af44') in 0.001427 seconds 
+  Import took 0.003906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.586871 seconds.
+  path: Assets/Animation/VegasAnimationController.controller
+  artifactKey: Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/VegasAnimationController.controller using Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e75fb13dc0ac0a06f44d64280067b30') in 0.022092 seconds 
+  Import took 0.024250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.820272 seconds.
+  path: Assets/Animation/VegasAnimationController.controller
+  artifactKey: Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/VegasAnimationController.controller using Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a316023682280e4e4867cea99f337e11') in 0.001774 seconds 
+  Import took 0.004210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 2.396000 ms (FindLiveObjects: 0.136300 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.201100 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1795.466040 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(82de98b7bad2c0b4f981664f7491b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(82de98b7bad2c0b4f981664f7491b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee8ae9d9c5761a50bb463c8b18cd9ef') in 0.004083 seconds 
+  Import took 0.016109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.309716 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa3be10a72127c8c9c8aea4e27f7803') in 0.002366 seconds 
+  Import took 0.004326 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Domain Reload Profiling:
+	ReloadAssembly (868ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.514100 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.037200 ms MarkObjects: 2.332300 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 3.150800 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.796300 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 115.123113 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67249ebc2c8395083b501b380e686f86') in 0.002898 seconds 
+  Import took 0.004850 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 2.459400 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.215500 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.460200 ms (FindLiveObjects: 0.116700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 2.290800 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.693900 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.504700 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432.940542 seconds.
+  path: Assets/Mixamo/Character_Fat_Elvis_body_color.mat
+  artifactKey: Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Character_Fat_Elvis_body_color.mat using Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bae3f17d3d4306461ce0d607b0f7d9') in 0.068179 seconds 
+  Import took 0.070675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.150116 seconds.
+  path: Assets/Mixamo/Elvis_Brows_MAT.mat
+  artifactKey: Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Brows_MAT.mat using Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e0ca4d8e1d977c12a5cc217d2b2498') in 0.005574 seconds 
+  Import took 0.026526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468536 seconds.
+  path: Assets/Mixamo/Elvis_Eyes_MAT.mat
+  artifactKey: Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Eyes_MAT.mat using Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cec9f8527ee61ddd4389fef32ea06ab') in 0.006645 seconds 
+  Import took 0.009466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.483055 seconds.
+  path: Assets/Mixamo/Elvis_Mouth_MAT.mat
+  artifactKey: Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Mouth_MAT.mat using Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b236afe2d1a72c733ae0be5eda9b3') in 0.005253 seconds 
+  Import took 0.007620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.117956 seconds.
+  path: Assets/Mixamo/Character_Fat_Elvis_body_color 1.mat
+  artifactKey: Guid(74cf346fc9c251448a1ea4525e762c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Character_Fat_Elvis_body_color 1.mat using Guid(74cf346fc9c251448a1ea4525e762c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784be5ff64b8bbe3813cd7f34244920') in 0.005575 seconds 
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356045 seconds.
+  path: Assets/Mixamo/Character_Fat_Elvis_body_color 2.mat
+  artifactKey: Guid(5790ed82d5bba154dabfe2ef9c36764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Character_Fat_Elvis_body_color 2.mat using Guid(5790ed82d5bba154dabfe2ef9c36764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58237b1b805a4e14e2bd61b8a70f7cf') in 0.004969 seconds 
+  Import took 0.007474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Mixamo/Elvis_Brows_MAT 1.mat
+  artifactKey: Guid(83d63f088d3a00243a6d159fb5c7ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Brows_MAT 1.mat using Guid(83d63f088d3a00243a6d159fb5c7ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3006e7e2318355eab1d0fc98a22ff6f2') in 0.005337 seconds 
+  Import took 0.013501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.208178 seconds.
+  path: Assets/Mixamo/newVegas_Elvis_BodyGeo.mesh
+  artifactKey: Guid(a10157746ec67ab4dad4c1d9d4b9aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/newVegas_Elvis_BodyGeo.mesh using Guid(a10157746ec67ab4dad4c1d9d4b9aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e033b2ad92240026a4b554eee109962') in 0.030443 seconds 
+  Import took 0.041309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.660749 seconds.
+  path: Assets/Mixamo/newVegas_Elvis_BrowsAnimGeo.mesh
+  artifactKey: Guid(6d110b4ed5bfb554886b22de55dedefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/newVegas_Elvis_BrowsAnimGeo.mesh using Guid(6d110b4ed5bfb554886b22de55dedefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d0164b7b711522cc08b9df7301775a') in 0.006639 seconds 
+  Import took 0.010862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545143 seconds.
+  path: Assets/Mixamo/newVegas_Elvis_EyesAnimGeo.mesh
+  artifactKey: Guid(0bd341223a8be3e42bb62a86a64aa6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/newVegas_Elvis_EyesAnimGeo.mesh using Guid(0bd341223a8be3e42bb62a86a64aa6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26840da543f12079842ee1c7ae4e451c') in 0.005866 seconds 
+  Import took 0.020596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500818 seconds.
+  path: Assets/Mixamo/newVegas_Elvis_MouthAnimGeo.mesh
+  artifactKey: Guid(83fe6ce0ec7ce204cbf73c792e53813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/newVegas_Elvis_MouthAnimGeo.mesh using Guid(83fe6ce0ec7ce204cbf73c792e53813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d4576c8f32557cef89801ea1d1a61d') in 0.005870 seconds 
+  Import took 0.008149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 2.505200 ms (FindLiveObjects: 0.154500 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.285700 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.644945 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d43fb21231106500cc47d7b40d3633a') in 0.145138 seconds 
+  Import took 0.147700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d898cf55fdeb22a36f4da8926fb32f4') in 0.059925 seconds 
+  Import took 0.062373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Mixamo/FatElvis_normal.jpg
+  artifactKey: Guid(8b9c72022b54e5a45ae3c900b105c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_normal.jpg using Guid(8b9c72022b54e5a45ae3c900b105c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86ad6377b928f61c6006c04a6c49ec1') in 0.086207 seconds 
+  Import took 0.088538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Mixamo/FatElvis_diffuse.jpg
+  artifactKey: Guid(0a4c914e8197f2744a86204a2e3de26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_diffuse.jpg using Guid(0a4c914e8197f2744a86204a2e3de26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb29a958c77f800867d06d083665db9') in 0.006039 seconds 
+  Import took 0.008923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Mixamo/Elvis_FaceAnimMap.png
+  artifactKey: Guid(f6a58e34bd293d840bccdb36ba058724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_FaceAnimMap.png using Guid(f6a58e34bd293d840bccdb36ba058724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c91424e9fae02a182a42729816e1b6') in 0.009559 seconds 
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfc89e84e616ed749da4565a860c25') in 0.058466 seconds 
+  Import took 0.061765 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.662200 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.467900 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.018564 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adc8de8e24bf8b9eaedde23133d2293') in 0.113131 seconds 
+  Import took 0.124503 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 2.658600 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.057200 ms MarkObjects: 2.387100 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.731850 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3928df2b9c0b265c7db58369c9a6959') in 0.117084 seconds 
+  Import took 0.119872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Mixamo/FatElvis_diffuse 1.jpg
+  artifactKey: Guid(dfa43e1ffeaf244468019091a146abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_diffuse 1.jpg using Guid(dfa43e1ffeaf244468019091a146abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6891f019c826081f7e94cc52a50182') in 0.010374 seconds 
+  Import took 0.012287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Mixamo/FatElvis_normal 1.jpg
+  artifactKey: Guid(be9462a866973bb4ca47441297c358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_normal 1.jpg using Guid(be9462a866973bb4ca47441297c358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d27471510c7a1e0f0a2aa3f50222f37') in 0.005713 seconds 
+  Import took 0.007877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Mixamo/Elvis_FaceAnimMap 1.png
+  artifactKey: Guid(854647e6e472ff440b333a57bd55e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_FaceAnimMap 1.png using Guid(854647e6e472ff440b333a57bd55e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d2bc1a7d4b46821cb92b91cdcc6fbe') in 0.006709 seconds 
+  Import took 0.008879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.642886 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db294289bf4d2f3fcd017d7aa81863bc') in 0.054054 seconds 
+  Import took 0.057137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082f10ec6a717c92185288638f80fe8') in 0.056031 seconds 
+  Import took 0.058333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.655786 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398d7d7b28543ccb5844313f8d84588a') in 0.056072 seconds 
+  Import took 0.058688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856a8b0dcd239dffd46214175e8275a') in 0.052158 seconds 
+  Import took 0.054767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.235883 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df6e0bb393c55eaab0bf0a669f23fd6') in 0.058058 seconds 
+  Import took 0.060723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Mixamo/FatElvis_diffuse.jpg
+  artifactKey: Guid(d62985d7829b072488968858bb8c6bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_diffuse.jpg using Guid(d62985d7829b072488968858bb8c6bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78b1409e92e87b89b0d6fb40ad24321') in 0.005567 seconds 
+  Import took 0.007589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Mixamo/FatElvis_normal.jpg
+  artifactKey: Guid(3ea09c0a958f9554bb852e5740c9449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/FatElvis_normal.jpg using Guid(3ea09c0a958f9554bb852e5740c9449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808457623440ef64f7c1a6e766a1e18e') in 0.006918 seconds 
+  Import took 0.010232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa7fc6446ecac02751f5bb6018d80e1') in 0.053456 seconds 
+  Import took 0.056405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Mixamo/Elvis_FaceAnimMap.png
+  artifactKey: Guid(fb714075525beb8498fa9ece1c3323fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_FaceAnimMap.png using Guid(fb714075525beb8498fa9ece1c3323fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32c4e4f3d48212e26b991682bf96a36') in 0.006488 seconds 
+  Import took 0.008879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9bb5ca9c33e101cf976abbd099119f') in 0.052924 seconds 
+  Import took 0.055525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.860312 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac94040560d5e8d6f6427a9ab67843e') in 0.042643 seconds 
+  Import took 0.045241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Mixamo/Elvis_Mouth_MAT.mat
+  artifactKey: Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Mouth_MAT.mat using Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadaafe0d248335a0e65db81e2881910') in 0.009305 seconds 
+  Import took 0.011285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Mixamo/Character_Fat_Elvis_body_color.mat
+  artifactKey: Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Character_Fat_Elvis_body_color.mat using Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd32b7079720ed8285cdf0d5824ce8') in 0.008395 seconds 
+  Import took 0.010549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Mixamo/Elvis_Eyes_MAT.mat
+  artifactKey: Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Eyes_MAT.mat using Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3db9c4fe59b0a9c1ea499ec539f92') in 0.008599 seconds 
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Mixamo/Elvis_Brows_MAT.mat
+  artifactKey: Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Brows_MAT.mat using Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624622d02b3fab19ef23eb16293b9ff1') in 0.009989 seconds 
+  Import took 0.012115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.680087 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d5030ba598566d54498cf8c0c57f71') in 0.060121 seconds 
+  Import took 0.062963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37711d27115670bb1a7cdd75d484e07c') in 0.054622 seconds 
+  Import took 0.057192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.506223 seconds.
+  path: Assets/Mixamo/bigvegas@Head Spinning.fbx
+  artifactKey: Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Head Spinning.fbx using Guid(8003ca13cc935b44f96129084c763e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061b489ccc6caedd270368f2d18b05a5') in 0.058295 seconds 
+  Import took 0.076278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Mixamo/bigvegas@Headspin End.fbx
+  artifactKey: Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas@Headspin End.fbx using Guid(1eeb028387712224ebc9d58a4420ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144d578eef0f31aeee365a87f294072') in 0.054102 seconds 
+  Import took 0.056442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.490531 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eece518e73a382e3ec8e2327bdf93099') in 0.043512 seconds 
+  Import took 0.046139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Mixamo/Elvis_Mouth_MAT.mat
+  artifactKey: Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Mouth_MAT.mat using Guid(f968eb3309a312641afccb509a128d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91dbfb7ea3ce95273a253efa1272990') in 0.007193 seconds 
+  Import took 0.009148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mixamo/Character_Fat_Elvis_body_color.mat
+  artifactKey: Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Character_Fat_Elvis_body_color.mat using Guid(8b938a26a4745f4449dce153d2c9b245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db9157165b7b5505b743a54e4c0af7a') in 0.009975 seconds 
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Mixamo/Elvis_Eyes_MAT.mat
+  artifactKey: Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Eyes_MAT.mat using Guid(5f5783ec12b32fe43b41c1c85868c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a468d7f648acb9ec4d109508ed127e') in 0.008398 seconds 
+  Import took 0.010482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Mixamo/Elvis_Brows_MAT.mat
+  artifactKey: Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Elvis_Brows_MAT.mat using Guid(d45d6b9609af7a34199a7abad7e032ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fa78f319f7d471a78d849f7c9f93f5') in 0.007949 seconds 
+  Import took 0.010492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.666429 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013795687b8ceda71b2785afceb3a7f8') in 0.036984 seconds 
+  Import took 0.039732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.928291 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479cd64258a06ea637e119067e312c1e') in 0.038509 seconds 
+  Import took 0.055593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.354739 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d91c5aceb79488b48fe875338504888') in 0.036116 seconds 
+  Import took 0.049561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.929467 seconds.
+  path: Assets/Mixamo/bigvegas.fbx
+  artifactKey: Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbx using Guid(df1799cd40e8ad8488b30954ca469c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fea93d1660de60f572b13295924ac68') in 0.045485 seconds 
+  Import took 0.048435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.907685 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(b6febe641972f974293eb89907228aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d94d4c9c508e59fe8ba349d1677ce3') in 0.000745 seconds 
+  Import took 0.002711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.299845 seconds.
+  path: Assets/Animation/VegasAnimationController.controller
+  artifactKey: Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/VegasAnimationController.controller using Guid(2b43d8e166598f34eae97902c65a08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9b974044ab0eca7a92d219df2665e8') in 0.045907 seconds 
+  Import took 0.048092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.932388 seconds.
+  path: Assets/Mixamo/Materials
+  artifactKey: Guid(a3aef52728c1b1e4daa48f550dc27e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials using Guid(a3aef52728c1b1e4daa48f550dc27e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41c3b6c988e322f09b0c22c49e649f8') in 0.000779 seconds 
+  Import took 0.002943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618872 seconds.
+  path: Assets/Mixamo/bigvegas.fbm
+  artifactKey: Guid(abee8719aa6780a48a1244b59041fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm using Guid(abee8719aa6780a48a1244b59041fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ec4303bd1f10b70f46fc11346cab03') in 0.001024 seconds 
+  Import took 0.009133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106201 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/Elvis_FaceAnimMap.png
+  artifactKey: Guid(bbc8383255a0bd84fac0afdd6a10bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/Elvis_FaceAnimMap.png using Guid(bbc8383255a0bd84fac0afdd6a10bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007311 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/elvis_faceanimmap.png in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1282848Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/elvis_faceanimmap.png in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1282848Z'
+  Import took 0.009397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/FatElvis_diffuse.jpg
+  artifactKey: Guid(0002b0c463eca1b4aa187aa167da9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/FatElvis_diffuse.jpg using Guid(0002b0c463eca1b4aa187aa167da9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004948 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_diffuse.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7176609Z' while content on disk has modification time of '2021-10-11T15:59:57.126262Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_diffuse.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7176609Z' while content on disk has modification time of '2021-10-11T15:59:57.126262Z'
+  Import took 0.006925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/FatElvis_normal.jpg
+  artifactKey: Guid(beb1f8f8a2cf3414382f97f85d6b639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/FatElvis_normal.jpg using Guid(beb1f8f8a2cf3414382f97f85d6b639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010568 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_normal.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1272868Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_normal.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1272868Z'
+  Import took 0.012617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.205645 seconds.
+  path: Assets/Animation/Head Spinning.anim
+  artifactKey: Guid(b863a0f6ae6a9834aac708b23e70e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Head Spinning.anim using Guid(b863a0f6ae6a9834aac708b23e70e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf012b2114cd6901016c54d503c4445') in 0.006581 seconds 
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064761 seconds.
+  path: Assets/Mixamo/Materials/Character_Fat_Elvis_body_color.mat
+  artifactKey: Guid(0b312740db9a86f46bcc831953e684cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/Character_Fat_Elvis_body_color.mat using Guid(0b312740db9a86f46bcc831953e684cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cabc918b3c26b8c6df7857f81b95b1') in 0.008773 seconds 
+  Import took 0.014991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Mixamo/Materials/Elvis_Brows_MAT.mat
+  artifactKey: Guid(2c5c12b94657d8c4f83dc31206264fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/Elvis_Brows_MAT.mat using Guid(2c5c12b94657d8c4f83dc31206264fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62440c606c7a72cc71e94fd47493f73f') in 0.007602 seconds 
+  Import took 0.009706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Mixamo/Materials/Elvis_Eyes_MAT.mat
+  artifactKey: Guid(e3d07d65feb58b3419b8dc8205b38b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/Elvis_Eyes_MAT.mat using Guid(e3d07d65feb58b3419b8dc8205b38b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21e61da7dc244a93ed20f0ea636e967') in 0.008988 seconds 
+  Import took 0.011503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Mixamo/Materials/Elvis_Mouth_MAT.mat
+  artifactKey: Guid(3e5ae144601a25c43a9885fdef3a13f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/Elvis_Mouth_MAT.mat using Guid(3e5ae144601a25c43a9885fdef3a13f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6dda678ea67b3a741eddb2352f87d1') in 0.007423 seconds 
+  Import took 0.009504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Mixamo/Materials/Elvis_FaceAnimMap.mat
+  artifactKey: Guid(323510467ff0d914599ea517d02fd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/Elvis_FaceAnimMap.mat using Guid(323510467ff0d914599ea517d02fd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afa126c460ae75ad41f7a1ec10b2888') in 0.005137 seconds 
+  Import took 0.007280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Mixamo/Materials/FatElvis_diffuse.mat
+  artifactKey: Guid(52848b018ba827745955f03e4358b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Materials/FatElvis_diffuse.mat using Guid(52848b018ba827745955f03e4358b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd147f0bb3ec33b650d7074b6ded0d1d3') in 0.006486 seconds 
+  Import took 0.009090 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 2.632900 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.450000 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.886831 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/Elvis_FaceAnimMap.png
+  artifactKey: Guid(bbc8383255a0bd84fac0afdd6a10bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/Elvis_FaceAnimMap.png using Guid(bbc8383255a0bd84fac0afdd6a10bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025921 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/elvis_faceanimmap.png in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1282848Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/elvis_faceanimmap.png in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1282848Z'
+  Import took 0.027902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/FatElvis_diffuse.jpg
+  artifactKey: Guid(0002b0c463eca1b4aa187aa167da9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/FatElvis_diffuse.jpg using Guid(0002b0c463eca1b4aa187aa167da9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004839 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_diffuse.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7176609Z' while content on disk has modification time of '2021-10-11T15:59:57.126262Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_diffuse.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7176609Z' while content on disk has modification time of '2021-10-11T15:59:57.126262Z'
+  Import took 0.006818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Mixamo/bigvegas.fbm/FatElvis_normal.jpg
+  artifactKey: Guid(beb1f8f8a2cf3414382f97f85d6b639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/bigvegas.fbm/FatElvis_normal.jpg using Guid(beb1f8f8a2cf3414382f97f85d6b639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012096 seconds  code(4) message(Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_normal.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1272868Z')
+  ERROR: Build asset version error: assets/mixamo/bigvegas.fbm/fatelvis_normal.jpg in SourceAssetDB has modification time of '2021-10-11T15:59:32.7186617Z' while content on disk has modification time of '2021-10-11T15:59:57.1272868Z'
+  Import took 0.014023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.725900 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.535800 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
